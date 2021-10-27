@@ -1,3 +1,5 @@
+package labs.lab2;
+
 public class Province {
 
     // --------------------------
@@ -40,7 +42,7 @@ public class Province {
     private String DEFAULT_CAPITAL = "Victoria";
     private long DEFAULT_POPULATION = 4_648_055;
 
-    // Class Province has three instance variables
+    // Class labs.lab2.Province has three instance variables
     private String name;
     private String capital;
     private long population;

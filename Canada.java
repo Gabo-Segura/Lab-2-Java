@@ -1,3 +1,5 @@
+package labs.lab2;
+
 public class Canada {
 
     // instance
@@ -18,7 +20,7 @@ public class Canada {
         Province p11 = new Province("Northwest Territories", "Yellowknife", 41_786);
         Province p12 = new Province("Nunavut", "Iqaluit", 35_944);
         Province p13 = new Province("Yukon", "Whitehorse", 35_874);
-        //Province[] provinces = {p1};
+        //labs.lab2.Province[] provinces = {p1};
         this.provinces = new Province[]
                 {p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13}
         ;
